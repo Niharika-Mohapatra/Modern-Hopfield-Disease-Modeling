@@ -1,7 +1,5 @@
 # Modelling Neurodegeneration with Modern Hopfield Networks
 
-[ADD YOUR OWN INTRO HERE]
-
 ---
 
 ## Overview
@@ -79,12 +77,6 @@ Per-step similarity to each stored pattern plotted over time, showing whether th
 
 ---
 
-## Key Findings
-
-[ADD YOUR OWN RESULTS HERE]
-
----
-
 ## Requirements
 
 ```
@@ -104,7 +96,3 @@ The `hopfield_networks_utils.py` dependency is downloaded automatically from [To
 - Hopfield Network utilities by [Tom George](https://github.com/TomGeorge1234)
 - Flag dataset by [nmohapatra](https://www.kaggle.com/nmohapatra) on Kaggle
 - Modern Hopfield Network theory: Ramsauer et al. (2020), *Hopfield Networks is All You Need*
-
----
-
-[ADD YOUR NAME / CONTACT / LICENSE HERE]
