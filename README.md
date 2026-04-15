@@ -88,12 +88,11 @@ pickle
 wget
 ```
 
-The `hopfield_networks_utils.py` dependency is downloaded automatically from [TomGeorge1234/HopfieldNetworkTutorial](https://github.com/TomGeorge1234/HopfieldNetworkTutorial) if not present.
+The `hopfield_networks_utils.py` dependency is downloaded automatically from [TomGeorge1234/HopfieldNetworkTutorial](https://github.com/TomGeorge1234/HopfieldNetworkTutorial).
 
 ---
 
 ## Acknowledgements
 
 - Hopfield Network utilities by [Tom George](https://github.com/TomGeorge1234)
-- Flag dataset by [nmohapatra](https://www.kaggle.com/nmohapatra) on Kaggle
 - Modern Hopfield Network theory: Ramsauer et al. (2020), *Hopfield Networks is All You Need*
