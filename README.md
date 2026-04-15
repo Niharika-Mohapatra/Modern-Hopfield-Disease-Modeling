@@ -66,6 +66,12 @@ Per-step similarity to each stored pattern plotted over time, showing whether th
 
 ---
 
+## Results
+
+### Noise Robustness
+
+The noise robustness test sweeps input corruption from 10% to 90% and measures final similarity to the target flag across all four conditions. In the healthy condition, retrieval remains reliable up to approximately 50% corruption, after which similarity degrades sharply. Stage 1 largely preserves this robustness curve, again confirming that glutamate dysregulation alone does not significantly impair the network's error-correction capacity. Stages 2 and 3 shift the curve downward and leftward — the network begins failing at lower noise levels, and the floor similarity under high noise is reduced. By Stages 1–2–3, meaningful retrieval (similarity > 0.5) is only achievable under very low noise conditions (~10–20% corruption), consistent with a brain that can only recall memories when given a near-complete cue.
+
 ## Requirements
 
 ```
