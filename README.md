@@ -28,7 +28,7 @@ Three biologically-motivated stages of decline are modelled sequentially:
 
 ## Dataset
 
-**Flags of Asia** — greyscale images sourced from Kaggle:
+**Flags of Asia** — greyscale images scraped by me from Wikipedia:
 [nmohapatra/flags-of-asia-123](https://www.kaggle.com/datasets/nmohapatra/flags-of-asia-123)
 
 Pixel values are scaled to `[-1, 1]` before use.
