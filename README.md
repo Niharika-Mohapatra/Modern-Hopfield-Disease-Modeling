@@ -1,7 +1,5 @@
 # Modelling Neurodegeneration with Modern Hopfield Networks
 
----
-
 ## Overview
 
 This project uses a **Modern Hopfield Network** to simulate the progressive memory failure seen in neurodegenerative diseases such as Alzheimer's. Greyscale images of Asian country flags serve as memory patterns. The network's ability to retrieve a corrupted flag represents a brain's ability to recall a degraded memory.
@@ -73,6 +71,12 @@ Per-step similarity to each stored pattern plotted over time, showing whether th
 The noise robustness test sweeps input corruption from 10% to 90% and measures final similarity to the target flag across all four conditions. In the healthy condition, retrieval remains reliable up to approximately 50% corruption, after which similarity degrades sharply. Stage 1 largely preserves this robustness curve, again confirming that glutamate dysregulation alone does not significantly impair the network's error-correction capacity. Stages 2 and 3 shift the curve downward and leftward — the network begins failing at lower noise levels, and the floor similarity under high noise is reduced. By Stages 1–2–3, meaningful retrieval (similarity > 0.5) is only achievable under very low noise conditions (~10–20% corruption), consistent with a brain that can only recall memories when given a near-complete cue.
 
 ![alt text](https://github.com/Niharika-Mohapatra/Modern-Hopfield-Disease-Modeling/blob/174f746fba71298fd3079d64404fe0b4d1956c21/Noise_Robustness_results.png)
+
+### Memory Capacity
+
+Retrieval similarity is measured as the number of stored patterns increases from 5 to 50, averaged over 3 random distractor sets. In the healthy condition, similarity remains relatively stable up to ~30 stored patterns before declining, consistent with the theoretical capacity scaling of Modern Hopfield Networks. Stage 1 again shows minimal deviation from healthy. Stages 2 and 3 compress the effective capacity window — retrieval begins degrading at lower pattern counts, and the rate of decline steepens. This mirrors clinical observations where neurodegenerative patients lose access to a wider range of memories as the disease progresses, not just the most recently formed ones.
+
+![alt text](https://github.com/Niharika-Mohapatra/Modern-Hopfield-Disease-Modeling/blob/2ee50c0c4d65bc03e2ae923484151874af47e216/Memory_Capacity_results.png)
 
 ## Requirements
 
