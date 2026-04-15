@@ -13,17 +13,6 @@ Three biologically-motivated stages of decline are modelled sequentially:
 | **Stage 1** | Astrocyte dysfunction | Glutamate neuromodulation (`g`) dysregulates, altering retrieval sharpness and step size |
 | **Stage 2** | Synaptic pruning | Memory patterns are structurally corrupted via per-synapse dropout |
 | **Stage 3** | Neuronal death | Neurons are randomly silenced; active neurons face higher deletion probability (excitotoxicity) |
-
----
-
-## Repository Structure
-
-```
-├── hopfield_neurodegeneration.ipynb   # Main Kaggle notebook
-├── hopfield_networks_utils.py         # Base Hopfield utilities (auto-downloaded)
-└── README.md
-```
-
 ---
 
 ## Dataset
