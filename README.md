@@ -92,7 +92,22 @@ The `hopfield_networks_utils.py` dependency is downloaded automatically from [To
 
 ---
 
-## Acknowledgements
+## Resources
 
+### References for Hopfield Network
+
+- Sai Nag Anurag Nangunoori, Akshara Karthic Mahadevan (2024), *Modeling Alzheimer’s Disease: From Memory Loss to Plaque & Tangles Formation*
+- Ali Montazeri, Robert Schmidt (2024), *Robustness in Hopfield neural networks with biased memory patterns*
+- Ramsauer et al. (2020), *Hopfield Networks is All You Need*
+- Wulfram Gerstner, Werner M. Kistler, Richard Naud and Liam Paninski (2014), *Neuronal Dynamics*
+
+### References for Alzheimer's Disease
+
+- Monika Sharma, Pankaj Pal, Sukesh Kumar Gupta (2024), *The neurotransmitter puzzle of Alzheimer’s: Dissecting mechanisms and exploring therapeutic horizons*
+- Helena Targa Dias Anastacio, Natalie Matosin, Lezanne Ooi (2022), *Neuronal hyperexcitability in Alzheimer’s disease: what are the drivers behind this aberrant phenotype?*
+- Marc Aurel Busche, Arthur Konnerth (2015) *Neuronal hyperactivity--A key defect in Alzheimer's disease?*
+- Zhenqi Yang, Yong Zou, Lifeng Wang (2023) *Neurotransmitters in Prevention and Treatment of Alzheimer’s Disease*
+- Jose Dominguez-Gortaire, Alejandra Ruiz, Ana Belen Porto-Pazos, Santiago Rodriguez-Yanez, Francisco Cedron (2025) *Alzheimer’s Disease: Exploring Pathophysiological Hypotheses and the Role of Machine Learning in Drug Discovery*
+
+### Utilities
 - Hopfield Network utilities by [Tom George](https://github.com/TomGeorge1234)
-- Modern Hopfield Network theory: Ramsauer et al. (2020), *Hopfield Networks is All You Need*
